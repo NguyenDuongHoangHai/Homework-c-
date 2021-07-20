@@ -1,0 +1,90 @@
+========================================= PHẦN 1 - CƠ BẢN ========================================= 
+Bài 1. Nhập vào số nguyên dương n. Tính tổng S(n) theo công thức sau:
+S(n) = 1 + 2 + 3 + 4 +…..+ n
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 0							0
+n = 1							1
+n = 5							15
+
+Bài 2. Nhập vào số nguyên dương n. Tính tích S(n) theo công thức sau:
+S(n) = 1 x 2 x 3 x 4 x…..x n
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 1							1
+n = 2							2
+n = 5							120
+
+Bài 3. Nhập vào số nguyên dương n. 
+Tính tổng S(n) = 1^2 + 2^2 + 3^2 + 4^2 +…..+ n^2
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 0							0
+n = 1							1
+n = 3							14
+
+
+Bài 4. Nhập vào số nguyên dương n. Xuất các giá trị chẵn trong đoạn từ 1 đến n
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 1							Không có
+n = 5							2  4
+n = 10							2  4  6  8  10
+
+
+Bài 5. Nhập vào số nguyên dương n. Liệt kê tất cả “ước số” của số nguyên dương n.
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 6							1  2  3  6
+n = 7							1  7
+n = 10							1  2  5  10
+
+Bài 6.  Nhập vào số nguyên dương n. Tính tổng các “ước số” của số nguyên dương n.
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 6							1  +  2  +  3  +  6 = 12
+n = 7							1  +  7 = 8
+n = 10							1  +  2  +  5  +  10 = 18
+
+
+========================================= PHẦN 2 - NÂNG CAO =========================================
+Bài 7. Nhập vào số nguyên dương n. Xuất các "chữ số" của số nguyên dương n.
+Gợi ý: Dùng toán tử chia lấy dư % và chia lấy nguyên / cho 10
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 123							3  2  1
+n = 69							9  6
+n = 9							9
+
+Bài 8: Nhập vào số nguyên dương n(n > 0). Xuất các "chữ số chẵn" của số nguyên dương n.
+Gợi ý: Dùng toán tử chia lấy dư % và chia lấy nguyên / cho 10
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 1234						4  2
+n = 123							2
+n = 99							Không có
+
+Bài 9. Nhập vào số nguyên dương n. Tính tổng S(n) = 1 + 1/2 + 1/3 + 1/4 +…..+ 1/n
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 0							0
+n = 1							1
+n = 5							2.283333
+
+i: 1--> n
+Bài 10. Nhập vào số nguyên dương n. Tính tổng S(n) = 1 + 1/3 + 1/5 +…+ 1/ (2*n + 1)
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 0							1
+n = 1							1.333333
+n = 2							1.533333
+
+========================================= PHẦN 3 - TƯ DUY SUY LUẬN  =========================================
+Bài 11. Bài toán đôi vớ
+- Nhà bạn A có n đôi vớ, mỗi ngày bạn A mang 1 đôi, mang xong thì vứt bỏ
+- Cứ m ngày thì mẹ bạn A mua thêm cho A một đôi vớ mới.
+- Hỏi bạn A mang vớ bao nhiêu ngày thì hết vớ để mang.
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 2, m = 2						3
+n = 9, m = 3						13
+n = 12, k = 4						15
+n = 21, k = 4						27
+n = 20, k = 3						29
+
+Bài 12. Nhập vào số nguyên dương n có tối đa 9 chữ số. Viết chương trình đọc số n đó bằng chữ
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 256							hai tram nam muoi sau
+n = 102					       		mot tram linh(le) hai
+n = 2147483647				        	hai ty mot tram bon muoi bay trieu bon tram tam muoi ba nghin sau tram bon muoi bay
+
+

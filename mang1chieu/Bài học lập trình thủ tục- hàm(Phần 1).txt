@@ -1,0 +1,107 @@
+LẬP TRÌNH PHÁT TRIỂN QUA 3 GIAI ĐOẠN <=> 3 PHƯƠNG PHÁP LẬP TRÌNH
+1. Lập trình tuyến tính
+Hàm chính ==> main
+2. Lập trình thủ tục - hàm(chương trình con)
+3. Lập trình hướng đối tượng
+
+
+=============================== LẬP TRÌNH THỦ TỤC HÀM ============================== 
+********************** A. TIẾP CẬN VẤN ĐỀ **********************
+Tính giai thừa của 3 số nguyên a b c
+SOURCE CODE 1: https://paste.ubuntu.com/p/4ySD5m28Yg/
+==> NHƯỢC ĐIỂM CỦA LẬP TRÌNH TUYẾN TÍNH LÀ CÙNG 1 ĐOẠN CODE XỬ LÝ CHỨC NĂNG TÍNH GIAI THỪA NHƯNG LẶP LẠI ĐẾN 3 LẦN
+
+********************** B. CHUYỂN SANG PHƯƠNG PHÁP LẬP TRÌNH THỦ TỤC HÀM **********************
+SOURCE CODE 2: https://paste.ubuntu.com/p/Rtm9tdMzMS/
+== ƯU ĐIỂM CỦA HÀM ==
++ Làm cho chương trình gọn gàng, rành mạch, rõ ràng
++ Dễ kiểm soát đoạn lệnh
++ Tái sử dụng lại đoạn lệnh - viết 1 lần mà dùng nhiều lần
+
+********************** C. CÚ PHÁP CỦA HÀM **********************
+Hàm là một tập hợp các câu lệnh nhằm xử lý 1 công việc cụ thể nào đó trong chương trình
+
+Trong lập trình có 2 dạng hàm
+A. Library Function
+==> Đây là nơi chứa các cái hàm có sẵn mà ngôn ngữ lập trình hỗ trợ cho lập trình viên dùng
+#include<math.h>
+#include<iostream>
+#include<windows.h> // xử lý giao diện trên màn hình conlose
+...
+
+B. User-Defined Function
+==> Đây là các cái hàm do lập trình viên tự tạo ra
+
+== CÚ PHÁP ==
+<Kiểu dữ liệu của hàm> <Tên hàm>(<Các tham số truyền vào - nếu có>)
+{
+	// Thân hàm - đoạn lệnh xử lý 1 công việc cụ thể nào đó
+}
+
+1. Kiểu dữ liệu của hàm
+HÀM CÓ CHỈ 2 LOẠI 
+a. LOẠI CÓ KIỂU DỮ LIỆU TRẢ VỀ
+- Kiểu số nguyên
+- Kiểu số thực
+- Kiểu ký tự
+- Kiểu luận lý
+- Kiểu dữ liệu do chúng ta tự tạo ra(Kiểu cấu trúc)
+LƯU Ý:
+- Dùng lệnh return để trả về giá trị cho hàm
+- Chỉ trả về được duy nhất 1 giá trị tại thời điểm gọi hàm
+b. LOẠI KHÔNG CÓ KIỂU DỮ LIỆU TRẢ VỀ
+- Kiểu void
+LƯU Ý:
+Nếu hàm cần trả về 2 giá trị trở lên thì sẽ dùng hàm không có kiểu trả về
+
+2. Tên hàm
+- Quy tắc đặt như tên biến
+- Cần lưu ý là tên hàm đặt phải sát nghĩa với chức năng mà cái hàm đó đang xử lý
+
+3. Các tham số truyền vào - nếu có
+==> Tham số này được gọi là tham số hình thức, mang ý nghĩa đón nhận dữ liệu truyền vào hàm để xử lý
+<=> Dữ liệu xử lý của bài toán
+
+
+********************** D. NGUYÊN LÝ HOẠT ĐỘNG CỦA HÀM **********************
+Demo 1 - LOẠI HÀM CÓ KIỂU DỮ LIỆU TRẢ VỂ
+Bài 1 - Viết chương trình tính tổng 2 số nguyên
+SOURCE CODE 3: https://paste.ubuntu.com/p/M6ZnWHtNnr/
+SOURCE CODE 4: https://paste.ubuntu.com/p/NK5KvCJY7p/
+SOURCE CODE 5: https://paste.ubuntu.com/p/v42jT3j6sr/
+
+Bài 2 - Viết chương trình kiểm tra số nguyên dương n có phải là số nguyên tố hay không ?
+SOURCE CODE 6: https://paste.ubuntu.com/p/WgJNzDtn4f/
+SOURCE CODE 7: https://paste.ubuntu.com/p/9Y2jtth9t4/
+
+Demo 2 - LOẠI HÀM KHÔNG CÓ KIỂU DỮ LIỆU TRẢ VỂ
+Bài 3 - Viết chương trình xuất ra màn hình dòng chữ "Hello World"
+SOURCE CODE 8: https://paste.ubuntu.com/p/QrK52sKVhZ/
+
+Bài 4 - Viết chương trình giải phương trình bậc nhất có dạng ax + b = 0
+SOURCE CODE 9: https://paste.ubuntu.com/p/j7nXb3QMT3/
+
+********************** E. HÀM LỒNG HÀM **********************
+Viết chương trình tìm bội chung nhỏ nhất của a và b
+Ước chung lớn nhất của a và b chính là giá trị lớn nhất mà a và b chia hết cho nó
+3 6 ==> 3
+6 12 ==> 6  
+Bội chung nhỏ nhất của a và b chính là giá trị nhỏ nhất mà nó chia hết cho a và b
+==> tích của a và b chia cho ước chung lớn nhất của a và b
+3 6 ==> 6
+6 12 ==> 12
+SOURCE CODE 9: https://paste.ubuntu.com/p/wdHPyYyMxm/
+
+********************** F. NGUYÊN MẪU HÀM **********************
+SOURCE CODE 10(BỊ LỖI): https://paste.ubuntu.com/p/sR6BszSfJ7/
+SOURCE CODE 11(KHẮC PHỤC LỖI): https://paste.ubuntu.com/p/cwVfbXBqcy/
+
+********************** G. THAM TRỊ - THAM CHIẾU **********************
+Tham số hình thức là tham số cài đặt ở hàm
+Tham số thực là tham số khi gọi lại hàm cần dùng và truyền vào
+1. Tham số hình thức gồm 2 khái niệm là tham trị và tham chiếu(tham biến)
+a. Khi cài đặt hàm theo kiểu tham số hình thức là tham trị thì tham số hình thức thay đổi ==> tham số thực vẫn giữ nguyên giá trị
+
+b. Khi cài đặt hàm theo kiểu tham số hình thức là tham chiếu thì tham số hình thức thay đổi ==> tham số thực sẽ thay đổi theo
+
+

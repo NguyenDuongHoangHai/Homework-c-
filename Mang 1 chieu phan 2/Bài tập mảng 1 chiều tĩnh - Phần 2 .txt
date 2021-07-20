@@ -1,0 +1,72 @@
+========================= PHẦN 1 - CƠ BẢN
+Bài 1. Cho dãy số nguyên dương a1, a2, …, an. Viết chương trình xóa tất cả các giá trị lớn nhất trong mảng.
+Dữ liệu đầu vào						Dữ liệu đầu ra
+1 3 5 2 5 1						1 3 2 1
+1 5 2 3 4						1 2 3 4
+
+Bài 2. Cho dãy số nguyên dương a1, a2, …, an. Viết chương trình xóa các phần tử có tần suất xuất hiện nhiều hơn 1 lần.
+Dữ liệu đầu vào						Dữ liệu đầu ra
+1 3 5 2 5 1						3 2
+1 5 2 3 4						1 5 2 3 4
+1 3 5 1 2						3 5 2
+
+Bài 3. Cho dãy số nguyên dương a1, a2, …, an. Viết chương trình thêm phần tử 0 vào trước các số nguyên tố trong mảng.
+Dữ liệu đầu vào						Dữ liệu đầu ra
+1 3 4 2 1						1 0 3 4 0 2 1
+1 5 2 3 4						1 0 5 0 2 0 3 4
+4 1 6 8 3						4 1 6 8 0 3
+
+Bài 4. Viết chương trình tìm UCLN của tất cả các phần tử trong mảng 1 chiều các số nguyên.
+3 9  ==> 3
+2 7 ==> 1
+2 8 ==> 2
+4 10 ==> 2
+Dữ liệu đầu vào						Dữ liệu đầu ra
+3 6 9							3
+3 5 8 12						1
+8 16 4 6						2
+
+Bài 5. Viết chương trình tìm BCNN của tất cả các phần tử trong mảng 1 chiều các số nguyên.
+Dữ liệu đầu vào					        Dữ liệu đầu ra
+3 6 9						     	18
+3 6 9 7							126
+
+Bài 6. Cho mảng 1 chiều các số nguyên. Hãy tìm giá trị trong mảng các số 
+nguyên xa giá trị x nhất(x nhập từ bàn phím)
+Dữ liệu đầu vào					     	Dữ liệu đầu ra
+3 6 9 và x = 1
+2 5 8						9
+3 6 9 7	 và x = 8 					3
+24 45 23 13 43 -12 và x = 15	 
+9  30 8	 2  28  28		45
+
+========================= PHẦN 2 - NÂNG CAO 
+Bài 7. Cho mảng 1 chiều các số nguyên. Viết chương trình tìm tất cả các mảng con của mảng ban đầu
+Mảng con là mảng có số lượng phần tử nhỏ hơn hoặc bằng mảng ban đầu, và nằm liên tiếp nhau.
+Dữ liệu đầu vào					     	Dữ liệu đầu ra
+3 6 9						        3, 3 6, 3 6 9, 6, 6 9, 9
+3 1 2 4							3, 3 1, 3 1 2, 3 1 2 4, 1, 1 2, 1 2 4, 2, 2 4, 4
+
+Bài 8. Cho mảng 1 chiều các số nguyên. Viết chương trình tìm tất cả các mảng con tăng dần của mảng ban đầu
+Dữ liệu đầu vào					     	Dữ liệu đầu ra
+3 6 9						        3, 3 6, 3 6 9, 6, 6 9, 9
+3 1 2 4							3, 1, 1 2, 1 2 4, 2, 2 4
+
+
+
+Câu 1 : Xóa các phần tử lớn nhất
+https://paste.ubuntu.com/p/5nzbBG5Fy3/
+Câu 2 : Xoa các phần tử trùng nhau
+https://paste.ubuntu.com/p/7RZbpwRSS3/
+Câu 3 : thêm số 0 trước phần tử là SNT
+https://paste.ubuntu.com/p/9hMcGWfgZZ/
+Câu 4 : Tìm ước chung lớn nhất của mảng
+https://paste.ubuntu.com/p/rVdRt7WB2y/
+Câu 5 : Tìm bội chung nhỏ nhất của mảng
+https://paste.ubuntu.com/p/stBrYbZYdN/
+Câu 6 : Khoảng cách xa nhất
+https://paste.ubuntu.com/p/Fym7ySPgJ8/
+Câu 7 : Tìm mảng con
+https://paste.ubuntu.com/p/yMnRtTVpKx/
+Câu 8 : Tìm mảng con tăng dần
+https://paste.ubuntu.com/p/tSCGpfMf2G/

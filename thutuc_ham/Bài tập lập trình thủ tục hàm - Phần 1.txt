@@ -1,0 +1,122 @@
+================================== PHẦN 1 - CƠ BẢN ================================== 
+Bài 1. Nhập vào số nguyên dương n. Tính tổng S(n) theo công thức sau:
+S(n) = 1 + 2 + 3 + 4 +…..+ n
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 0							0
+n = 1							1
+n = 5							15
+
+Bài 2. Nhập vào số nguyên dương n. Tính tích S(n) theo công thức sau:
+S(n) = 1 x 2 x 3 x 4 x…..x n
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 1							1
+n = 2							2
+n = 5							120
+
+Bài 3. Nhập vào số nguyên dương n. 
+Tính tổng S(n) = 1^2 + 2^2 + 3^2 + 4^2 +…..+ n^2
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 0							0
+n = 1							1
+n = 3							14
+
+Bài 4. Nhập vào số nguyên dương n. Xuất các giá trị chẵn trong đoạn từ 1 đến n
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 1							Không có
+n = 5							2  4
+n = 10							2  4  6  8  10
+
+Bài 5. Nhập vào số nguyên dương n. Liệt kê tất cả “ước số” của số nguyên dương n.
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 6							1  2  3  6
+n = 7							1  7
+n = 10							1  2  5  10
+
+Bài 6.  Nhập vào số nguyên dương n. Tính tổng các “ước số” của số nguyên dương n.
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 6							1  +  2  +  3  +  6 = 12
+n = 7							1  +  7 = 8
+n = 10							1  +  2  +  5  +  10 = 18
+
+Bài 7. Nhập vào số nguyên dương n. Xuất các "chữ số" của số nguyên dương n.
+Gợi ý: Dùng toán tử chia lấy dư % và chia lấy nguyên / cho 10
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 123							3  2  1
+n = 69							9  6
+n = 9							9
+
+Bài 8. Nhập vào số nguyên dương n. Tìm “chữ số” lớn nhất của số nguyên dương n.
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 1234						4
+n = 6879						9
+n = 66							6
+
+Bài 9. Nhập vào số nguyên dương n. Viết chương trình kiểm tra xem n có phải là đối xứng hay không ? 
+Biết n là số đối xứng hay còn gọi là số thuận nghịch nếu đọc từ trái sang phải hay từ phải sang trái cũng là chính nó
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 112							Không phải số đối xứng
+n = 3							Số đối xứng
+n = 1221						Số đối xứng
+
+
+================================== PHẦN 2 - NÂNG CAO ================================== 
+
+Bài 10. Nhập vào số nguyên dương n. Viết chương trình lấy ra chữ số ở vị trí k nào đó của n(tính từ phải sang trái).
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 123, k = 2						2
+n = 1269, k = 2						6
+n = 1234, k = 4						1
+n = 1234, k = 1						4
+
+Bài 11. Nhập vào số nguyên dương n. Viết chương trình kiểm tra xem số nguyên dương n có phải là số Amstrong không ?
+Biết n là số Amstrong khi tổng lũy thừa k ( với k là số lượng chữ số của n) của các chữ số của n bằng chính nó. 
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 135							Không phải số Amstrong vì 1^3 + 3^3 + 5^3 khác 135
+n = 9							Số Amstrong vì 9^1 = 9
+n = 153							Số Amstrong vì 1^3 + 5^3 + 3^3 = 153
+n = 1634						Số Amstrong vì 1^4+6^4+3^4+4^4 = 1634
+
+Bài 12. Nhập vào số nguyên dương n. Viết chương trình kiểm tra xem n có phải là số nguyên tố hay không ?
+Biết n được gọi là số nguyên tố khi n chỉ chia hết cho 1 và chính nó
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 2							Số nguyên tố
+n = 3							Số nguyên tố
+n = 9							Không phải số nguyên tố
+n = 17							Số nguyên tố
+
+Bài 13. Nhập vào số nguyên dương n. Viết chương trình tìm các số nguyên tố nhỏ hơn một số nguyên dương n cho trước.
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 9							2 3 5 7
+n = 11							2 3 5 7
+n = 15							2 3 5 7 11 13	
+n = 2							Không có giá trị thỏa mãn
+
+Bài 14. Dãy Fibonacci là dãy số mà số tiếp theo là tổng của hai số liền trước. 
+Dãy Fibonacci bắt đầu từ hai số F0 & F1. Giá trị ban đầu của F0 & F1 có thể tương ứng là 0, 1 hoặc 1, 1.
+Cho công thức của dãy Fibonacci như sau:
+F(0) = F(1) = 1
+F(n) = F(n-1) + F(n-2)
+Ta có dãy Fibonacci như sau: 1 1 2 3 5 8 13 21 34 55 89 144....
+Nhập vào số nguyên không âm n, hãy tính Fn
+Dữ liệu đầu vào						Dữ liệu đầu ra
+n = 0							1
+n = 1							1
+n = 2							2
+n = 3							3
+n = 5							8
+n = 8							34
+
+================================== PHẦN 3 - TƯ DUY SUY LUẬN ================================== 
+Bài 15. Mô tả hoạt động máy rút tiền ATM
+Biết máy ATM bao gồm 4 loại tờ tiền 500, 200, 100 và 50. 
+Mỗi loại tờ tiền tương ứng với số lượng tờ tiền cho trước là count_500, count_200, count_100 và count_50. Giả sử máy ATM chứa lượng tiền ban đầu mặc định sẵn là X bất kỳ.
+1. Viết chương trình mô phỏng hoạt động của một máy ATM với chức năng cho phép người dùng nhập vào số tiền cần rút là n. 
+2. Người dùng có thể lựa chọn thực hiện chức năng rút tiền cho đến khi máy hết tiền hoặc kết thúc chương trình sau khi hoàn thành thao tác.
+Lưu ý: Số lượng tờ tiền rút phải là ít nhất
+Dữ liệu đầu vào					Dữ liệu đầu ra
+n = 650					       	1 to 500, 1 to 100, 1 to 50
+n = 550					      	1 to 500, 1 to 50
+n = 1500				       	3 to 500
+3. Nâng cấp bảo mật cho khách hàng bằng cách khởi tạo cho khách hàng mật khẩu mặc định sẵn ban đầu là dãy số tối đa 8 chữ số
+Nếu khách hàng nhập đúng mật khẩu thì mới cho thực hiện các chức năng của máy ATM
+
