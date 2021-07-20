@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Program\C-C++\thutuc_ham\cau11\Source.cpp(41,11): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  LINK : D:\Program\C-C++\thutuc_ham\cau7\Debug\cau11.exe not found or not built by the last incremental link; performing full link
+  cau11.vcxproj -> D:\Program\C-C++\thutuc_ham\cau7\Debug\cau11.exe

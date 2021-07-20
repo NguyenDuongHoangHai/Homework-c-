@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Program\C-C++\mang1chieu\cau1\Source.cpp(44,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  cau1.vcxproj -> D:\Program\C-C++\mang1chieu\x64\Debug\cau1.exe

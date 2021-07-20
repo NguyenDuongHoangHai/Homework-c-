@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\Program\C-C++\mang1chieu\cau4\Source.cpp(44,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Program\C-C++\mang1chieu\cau4\Source.cpp(45,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Program\C-C++\mang1chieu\cau4\Source.cpp(46,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  cau4.vcxproj -> D:\Program\C-C++\mang1chieu\x64\Debug\cau4.exe

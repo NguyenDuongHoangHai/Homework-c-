@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Program\C-C++\thutuc_ham\kiemtra\Source.cpp(19,21): warning C4018: '<': signed/unsigned mismatch
+  kiemtra.vcxproj -> D:\Program\C-C++\thutuc_ham\Debug\kiemtra.exe

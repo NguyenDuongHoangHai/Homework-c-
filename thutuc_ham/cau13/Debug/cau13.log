@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Program\C-C++\thutuc_ham\cau13\Source.cpp(28,26): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+D:\Program\C-C++\thutuc_ham\cau13\Source.cpp(24,6): warning C4101: 'i': unreferenced local variable
+  cau13.vcxproj -> D:\Program\C-C++\thutuc_ham\cau7\Debug\cau13.exe

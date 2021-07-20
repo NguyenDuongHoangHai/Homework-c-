@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Program\C-C++\Mang 1 chieu phan 2\cau4\Source.cpp(62,14): warning C4101: 'b': unreferenced local variable
+D:\Program\C-C++\Mang 1 chieu phan 2\cau4\Source.cpp(48): warning C4715: 'timucln': not all control paths return a value
+  cau4.vcxproj -> D:\Program\C-C++\Mang 1 chieu phan 2\Debug\cau4.exe
